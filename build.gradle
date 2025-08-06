@@ -27,6 +27,8 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-parent:2.4.0'
+	/*Springboot security*/
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 	/* Datenbank+JPA and REST */
 	implementation 'com.microsoft.sqlserver:mssql-jdbc:12.10.0.jre11'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
@@ -36,6 +38,8 @@ dependencies {
 	/* Liquibase */
 	implementation 'org.liquibase:liquibase-core:4.23.0'
 	implementation 'org.liquibase:liquibase-gradle-plugin:2.2.0'
+	/* for Lombok*/
+	implementation 'org.projectlombok:lombok:1.18.34'
 
 	/* AWS check */
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'

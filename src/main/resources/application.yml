@@ -12,7 +12,7 @@ spring:
     username: testUser
     password: ABCDabcd_123
   jpa:
-    show-sql: false
+    show-sql: true
     hibernate:
       ddl-auto: none
 
