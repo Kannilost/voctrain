@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface VocabularyService {
     List<Vocabulary> findByLocalizationId(int localizationId);
+
+
 }

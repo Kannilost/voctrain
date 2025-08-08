@@ -58,6 +58,15 @@ public class Vocabulary {
         return localizationId;
     }
 
+    @Transient
+    private boolean marked = false;
 
+    public void setMarked( boolean marked){
+        this.marked = marked;
+    }
+
+    public boolean isMarked() {
+        return marked;
+    }
     // Getter & Setter
 }

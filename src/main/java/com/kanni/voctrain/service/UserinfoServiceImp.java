@@ -5,6 +5,7 @@ import com.kanni.voctrain.domain.entities.Userinfo;
 import com.kanni.voctrain.repository.UserinfoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -36,5 +37,14 @@ public class UserinfoServiceImp implements UserinfoService , UserDetailsService 
     @Override
     public Optional<Userinfo> findByUsername(String username) {
         return userinfoRepository.findByUsername(username);
+    }
+
+    @Override
+    public VoctrainUser getCurrentUser() {
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        if (principal instanceof VoctrainUser) {
+            return ((VoctrainUser) principal);
+        }
+        return null;
     }
 }
