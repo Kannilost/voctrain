@@ -94,7 +94,6 @@ public class VocabularyController {
         if (total == 0) {
             return 0; // Vermeide Division durch 0
         }
-
         return (learned * 100) / total; // Prozentwert als Ganzzahl
     }
 }
