@@ -17,3 +17,7 @@ VALUES
  ('Kanni' , 'Kanni5826', 'Kanni.zhu@hotmail.com'),
  ('Papa' , 'Papa5826', 'Papa.zhu@hotmail.com'),
  ('Mama' , 'Mama5826', 'Mama.liu@hotmail.com');
+
+--changeset includeAll:add_user_testtest
+INSERT INTO dbo.userinfo (username, password, email)
+VALUES ('TestUser', 'abc123', Null);
