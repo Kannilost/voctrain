@@ -18,5 +18,7 @@ Im application.yml braucht man auf seinem eigenem Rechner SQL installieren. Da e
 
 1. SQL Server 2019 Developer Edition installieren (ideal Einstellung auf English)
 2. SQL Server Management Studio installieren
-3.<img width="735" height="639" alt="image" src="https://github.com/user-attachments/assets/a22de5bd-3c6b-4d4b-b5d1-e0e2455190d0" />
-
+3. <img width="735" height="639" alt="image" src="https://github.com/user-attachments/assets/a22de5bd-3c6b-4d4b-b5d1-e0e2455190d0" />
+4. <img width="733" height="657" alt="image" src="https://github.com/user-attachments/assets/ea294675-8bb7-42a1-9f69-6db971230210" />
+5. Erstellung einer neuen Anmeldung:
+<img width="749" height="659" alt="image" src="https://github.com/user-attachments/assets/a6e682b4-68b1-4b13-990d-28a082794996" />
