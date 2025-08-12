@@ -26,5 +26,8 @@ public class VocabularyServiceImp implements VocabularyService {
         return vocabularyMarkedService.setMarked(vocabularies);
     }
 
-
+    @Override
+    public Long countVocabularies() {
+        return vocabularyRepository.count();
+    }
 }

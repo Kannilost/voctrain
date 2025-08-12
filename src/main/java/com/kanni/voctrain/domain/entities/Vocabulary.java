@@ -33,7 +33,6 @@ public class Vocabulary {
     private Localization localization;
 
 
-
     public Integer getVocabularyId() {
         return vocabularyId;
     }
@@ -67,6 +66,15 @@ public class Vocabulary {
 
     public boolean isMarked() {
         return marked;
+    }
+
+    @Transient
+    private boolean learned = false;
+
+    public void setLearned(boolean learned) { this.learned = learned;}
+
+    public boolean isLearned() {
+        return learned;
     }
     // Getter & Setter
 }

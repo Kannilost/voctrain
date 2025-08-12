@@ -11,4 +11,6 @@ import java.util.List;
 @Repository
 public interface VocabularyRepository extends JpaRepository<Vocabulary, Integer> {
     List<Vocabulary> findByLocalizationId(int localizationId);
+
+
 }

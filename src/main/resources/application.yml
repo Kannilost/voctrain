@@ -2,7 +2,7 @@ server:
   port: 8080
   servlet:
     session:
-      timeout: 60m
+      timeout: 1440m
 
 spring:
 
