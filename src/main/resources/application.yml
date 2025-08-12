@@ -11,7 +11,7 @@ spring:
       FAIL_ON_EMPTY_BEANS: false
 
   datasource:
-    url: jdbc:sqlserver://192.168.2.50:1433;databaseName=VocTrain;trustServerCertificate=false;encrypt=false;encrypth=false;sendStringParametersAsUnicode=false
+    url: jdbc:sqlserver://localhost:1433;databaseName=VocTrain;trustServerCertificate=false;encrypt=false;encrypth=false;sendStringParametersAsUnicode=false
     username: testUser
     password: ABCDabcd_123
   jpa:
