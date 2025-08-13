@@ -22,3 +22,5 @@ Im application.yml braucht man auf seinem eigenem Rechner SQL installieren. Da e
 4. <img width="733" height="657" alt="image" src="https://github.com/user-attachments/assets/ea294675-8bb7-42a1-9f69-6db971230210" />
 5. Erstellung einer neuen Anmeldung:
 <img width="749" height="659" alt="image" src="https://github.com/user-attachments/assets/a6e682b4-68b1-4b13-990d-28a082794996" />
+6. Achtet darauf, dass bei Servereigenschaften unter Security Serverauthentifizierung auf SQL Server- und Windows Authentifizierungsmodus ist.
+<img width="731" height="635" alt="image" src="https://github.com/user-attachments/assets/7c43eaac-afd8-42d6-8a56-0c87594682a1" />
