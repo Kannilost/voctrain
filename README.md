@@ -1,4 +1,6 @@
 # VocApp
+Der Vokabeltrainer ist jetzt auch über http://voctrain.kunst-blumen.com/ zu finden
+
 Test User:
 
 Username: TestUser
